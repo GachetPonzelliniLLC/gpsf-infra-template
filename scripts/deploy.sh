@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
+bash scripts/validate_env.sh
 # GPSF Deploy
 # Assumes:
 # - repo is cloned into /srv/stacks/<client>-prod
