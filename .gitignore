@@ -1,0 +1,10 @@
+.env
+
+# runtime
+data/
+backups/
+logs/
+
+# editor / os
+.DS_Store
+*.swp
