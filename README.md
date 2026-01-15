@@ -23,4 +23,16 @@ Este repo es el **template** para levantar infra replicable por cliente en VPS H
 3) Nginx+SSL: `sudo bash scripts/nginx_setup.sh`
 4) Import defaults en n8n: healthchecks ON, error bot OFF.
 
+## TL;DR (nuevo VPS)
+
+```bash
+git clone <repo>
+cd gpsf-infra-template
+cp .env.example .env
+nano .env
+
+sudo bash scripts/bootstrap.sh      # una sola vez por VPS
+bash scripts/deploy.sh
+sudo bash scripts/nginx_setup.sh
+
 Ver `docs/PROCESS.md`.
